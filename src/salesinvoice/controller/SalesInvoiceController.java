@@ -94,8 +94,8 @@ public class SalesInvoiceController implements ActionListener, ListSelectionList
 
     private void createNewInvoice() {
         
-        NewInvoiceDialog invoiceDialog =new NewInvoiceDialog(invframe);
-        invoiceDialog.setVisible(true);
+        invDialog =new NewInvoiceDialog(invframe);
+        invDialog.setVisible(true);
         
     }
 
